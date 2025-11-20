@@ -1,13 +1,25 @@
-// import { apiKey } from "./utils";
+// ----- EXPORTS AND IMPORTS -----
 
-// OR 
+// // import { apiKey } from "./utils";
 
-// import apiKeyName from "./utils.js";
-// for default exports
+// // OR 
 
-import * as utils from "./utils.js";
-// import multiple variables
+// // import apiKeyName from "./utils.js";
+// // for default exports
 
-console.log(utils.default);
-console.log(utils.apiKey);
-console.log(utils.number);
+// import * as utils from "./utils.js";
+// // import multiple variables
+
+// console.log(utils.default);
+// console.log(utils.apiKey);
+// console.log(utils.number);
+
+// ----- VARIABLES, VALUES, OPERATORS -----
+
+let userMessage = "Hello World!";
+
+console.log(userMessage);
+console.log(10 + 5);
+console.log("Hello" + " World" + " Again");
+
+console.log(10 === 5) // <, >, <=, >=
